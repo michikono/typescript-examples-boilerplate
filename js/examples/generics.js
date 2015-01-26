@@ -26,13 +26,17 @@ console.log('Added twice: ', (new NotIdealAdd(0)).doIt().doIt().getValue());
 //        return this;
 //    }
 //}
+//
 //interface Chainable<T> {
 //    getValue:() => number
 //    doIt: () => T
 //}
 //
 //class Add implements Chainable<Add> {
-//    constructor(private i:number) {
+//    private i:number;
+//
+//    constructor(i:number) {
+//        this.i = i;
 //    }
 //
 //    getValue() {
