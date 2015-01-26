@@ -1,3 +1,7 @@
+# Typescript
+
+Typescript exampels are found in `js/examples`. Nothing else has been changed in this project.
+
 # [HTML5 Boilerplate](http://html5boilerplate.com)
 
 HTML5 Boilerplate is a professional front-end template for building fast,
